@@ -19,7 +19,7 @@ public class NovoClass {
         double y = 2.452134;
         double resultado = (x*y);
         
-        DecimalFormat deci = new DecimalFormat("0.0");
+        DecimalFormat deci = new DecimalFormat("0.000");
      
          JOptionPane.showMessageDialog(null,deci.format(resultado));
         
